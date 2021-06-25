@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.s1 {
+  background: url("../img/01BG.webp");
+}
+
+.oneFG {
+  background: url("../img/01FG.webp");
+}
+
+.s2 {
+  background: url("../img/02BG.webp");
+}
+
+.twoFG {
+  background: url("../img/02FG.webp");
+}
+
+.s3 {
+  background: url("../img/03BG.webp");
+}
+
+.threeFG {
+  background: url("../img/03FG.webp");
+}
+
+.s4 {
+  background: url("../img/04BG.webp");
+}
+
+.fourFG {
+  background: url("../img/04FG.webp");
+}
+
+.s5 {
+  background: url("../img/05BG.webp");
+}
+
+.fiveFG {
+  background: url("../img/05FG.webp");
+}
+
+.s6 {
+  background: url("../img/06BG.webp");
+}
+
+.sixFG {
+  background: url("../img/06FG.webp");
+}
+
+.s7 {
+  background: url("../img/07BG.webp");
+}
+
+.sevenFG {
+  background: url("../img/07FG.webp");
+}
+
+.s8 {
+  background: url("../img/08BG.webp");
+}
+
+.eightFG {
+  background: url("../img/08FG.webp");
+}
+
+.s9 {
+  background: url("../img/09BG.webp");
+}
+
+.nineFG {
+  background: url("../img/09FG.webp");
+}
+
+.section {
+  background-size: cover;
+}
+
+.fg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.login {
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  .s1 {
+    background: url("../img/01MBG.webp");
+  }
+  .oneFG {
+    background: url("../img/01MFG.webp");
+  }
+  .s2 {
+    background: url("../img/02MBG.webp");
+  }
+  .twoFG {
+    background: url("../img/02MFG.webp");
+  }
+  .s3 {
+    background: url("../img/03MBG.webp");
+  }
+  .threeFG {
+    background: url("../img/03MFG.webp");
+  }
+  .s4 {
+    background: url("../img/04MBG.webp");
+  }
+  .fourFG {
+    background: url("../img/04MFG.webp");
+  }
+  .s5 {
+    background: url("../img/05MBG.webp");
+  }
+  .fiveFG {
+    background: url("../img/05MFG.webp");
+  }
+  .s6 {
+    background: url("../img/06MBG.webp");
+  }
+  .sixFG {
+    background: url("../img/06MFG.webp");
+  }
+  .s7 {
+    background: url("../img/07MBG.webp");
+  }
+  .sevenFG {
+    background: url("../img/07MFG.webp");
+  }
+  .s8 {
+    background: url("../img/08MBG.webp");
+  }
+  .eightFG {
+    background: url("../img/08MFG.webp");
+  }
+  .s9 {
+    background: url("../img/09MBG.webp");
+  }
+  .nineFG {
+    background: url("../img/09MFG.webp");
+  }
+  .section {
+    background-size: cover;
+  }
+  .fg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
