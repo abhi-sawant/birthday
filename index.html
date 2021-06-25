@@ -18,6 +18,22 @@
             font-family: 'Source Sans Pro', sans-serif;
         }
 
+        .github {
+            z-index: 1111111;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+
+        .github .githublink {
+            text-decoration: none;
+            color: #fff;
+            background-color: #212121;
+            padding: 0.5em 1.5em;
+            border-radius: 8px;
+            letter-spacing: 1.2;
+        }
+
         form {
             width: 100%;
             top: 100px;
@@ -152,6 +168,15 @@
 
 <body>
     <div id="particles-js" style="background: url('img/09BG.webp');">
+
+        <!-- Remove this div -->
+        <div class="github">
+            <a href="https://github.com/abhi-sawant/birthday" class="githublink">
+                Download Code
+            </a>
+        </div>
+        <!-- Till here -->
+
         <form class="login">
             <center>
                 <div class="wrapper">
@@ -161,7 +186,7 @@
                     <input type="submit" id="sub" value="submit">
 
                     <!-- Exchange the number after 91 -->
-                    <p class="contact"><a href="https://wa.me/918000670337">Contact us</a> if you want to access the
+                    <p class="contact"><a href="https://wa.me/918000670336">Contact us</a> if you want to access the
                         site.</p>
                 </div>
             </center>

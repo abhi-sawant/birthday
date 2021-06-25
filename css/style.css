@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .github{
   z-index: 1111111;
   position: fixed;
